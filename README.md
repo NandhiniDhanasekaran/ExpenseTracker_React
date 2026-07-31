@@ -280,9 +280,6 @@ Run Spring Boot application from IntelliJ IDEA.
 # 📸 Application Screenshots
 
 
-## Login Page
-
-![Login Page](screenshots/Login.png.png)
 
 
 ## Register Page
@@ -293,11 +290,6 @@ Run Spring Boot application from IntelliJ IDEA.
 ## Dashboard
 
 ![Dashboard](screenshots/Home.png.png)
-
-
-## Expense List
-
-![Expense List](screenshots/expense-list.png)
 
 
 ## Reports
