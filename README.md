@@ -278,24 +278,23 @@ Run Spring Boot application from IntelliJ IDEA.
 ---
 
 # 📸 Application Screenshots
-
-
-
-
-## Register Page
-
-![Register Page](Screenshots/Register.png)
-
+# 📸 Application Screenshots
 
 ## Dashboard
 
-![Dashboard](Screenshots/Home.png)
+![Dashboard](./Screenshots/Home.png)
+
+## Register Page
+
+![Register Page](./Screenshots/Register.png)
 
 ## Reports
-![Reports](expense_frontend/Screenshots/Reports.png)
+
+![Reports](./Screenshots/Reports.png)
 
 ## PDF Export
-![PDF Export](expense_frontend/Screenshots/Exportpdf.png)
+
+![PDF Export](./Screenshots/Exportpdf.png)
 
 
 ---
