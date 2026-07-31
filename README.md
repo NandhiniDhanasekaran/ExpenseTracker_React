@@ -1,100 +1,171 @@
-# Expense Tracker Application
+# 💰 Expense Tracker Application
 
-A full-stack Expense Tracker application built to manage personal expenses with a modern dashboard, reports, authentication, and CRUD functionality.
+A full-stack **Expense Tracker Application** built using **React, Spring Boot, and PostgreSQL**.
 
-## 🚀 Project Overview
-
-The Expense Tracker allows users to create, update, delete, and view expenses. It provides a dashboard with expense summaries, charts, recent transactions, and detailed reports with export options.
-
-This project demonstrates full-stack development using React, Spring Boot, and PostgreSQL.
+The application helps users manage personal expenses with CRUD operations, dashboard analytics, reports, filtering, and export functionality.
 
 ---
 
-## ✨ Features
+# 🚀 Project Overview
 
-### Authentication
+The Expense Tracker application allows users to:
 
-* User Registration
-* User Login
-* Professional success and error messages
-* Secure user navigation
+- Create expenses
+- View expenses
+- Update expenses
+- Delete expenses
+- Track spending by category
+- Analyze expenses using charts
+- Generate reports
+- Export expense data
 
-### Expense Management (CRUD)
+This project demonstrates full-stack development using:
 
-* Create new expenses
-* View all expenses
-* Update existing expenses
-* Delete expenses
-* Category-based expense tracking
-
-### Dashboard
-
-* Total Expenses summary
-* Expense categories overview
-* Monthly expense visualization
-* Recent expenses display
-
-### Reports
-
-* Filter expenses by:
-
-  * Date range
-  * Category
-* Total amount calculation
-* Average expense calculation
-* Highest expense tracking
-
-### Export Features
-
-* Export expense reports as PDF
-* Export expense data as Excel
-
-### User Interface
-
-* Responsive Bootstrap design
-* Professional cards and tables
-* Navigation menu
-* User-friendly forms
+**React + Spring Boot + PostgreSQL**
 
 ---
 
-## 🛠️ Technologies Used
+# ✨ Features
 
-### Frontend
+## 🔐 Authentication
 
-* React.js
-* Vite
-* React Router
-* Axios
-* Bootstrap
-* Recharts
+- User Registration
+- User Login
+- Success and error messages
+- Secure navigation flow
 
-### Backend
 
-* Java
-* Spring Boot
-* Spring Data JPA
-* REST APIs
+## 💵 Expense Management (CRUD)
 
-### Database
+Users can:
 
-* PostgreSQL
+- Add new expenses
+- View all expenses
+- Edit existing expenses
+- Delete expenses
+- Track expenses by category
 
-### Tools
 
-* Git
-* GitHub
-* VS Code
-* IntelliJ IDEA
+## 📊 Dashboard
+
+The dashboard provides:
+
+- Total Expenses summary
+- Expense category overview
+- Monthly expense visualization
+- Recent transactions
+- Expense statistics
+
+
+Dashboard Components:
+
+- Summary Cards
+- Category Pie Chart
+- Monthly Expense Chart
+- Recent Expenses Table
+
+
+## 📈 Reports
+
+Reports provide detailed expense analysis:
+
+- Filter expenses by date range
+- Filter expenses by category
+- Total expense calculation
+- Average expense calculation
+- Highest expense tracking
+
+
+## 📄 Export Features
+
+Users can export:
+
+- Expense reports as PDF
+- Expense data as Excel
+
+
+## 🎨 User Interface
+
+Application includes:
+
+- Responsive Bootstrap design
+- Professional dashboard cards
+- Expense tables
+- Charts
+- Navigation menu
+- User-friendly forms
+
 
 ---
 
-## 📂 Project Structure
+# 🛠️ Technologies Used
+
+
+## Frontend
+
+- React.js
+- Vite
+- React Router
+- Axios
+- Bootstrap
+- Recharts
+
+
+## Backend
+
+- Java
+- Spring Boot
+- Spring Data JPA
+- REST APIs
+
+
+## Database
+
+- PostgreSQL
+
+
+## Tools
+
+- Git
+- GitHub
+- VS Code
+- IntelliJ IDEA
+
+
+---
+
+# 🏗️ Application Architecture
+
 
 ```
-expense_frontend
+React Frontend
+      |
+      |
+    Axios
+      |
+      |
+Spring Boot REST API
+      |
+      |
+Spring Data JPA
+      |
+      |
+PostgreSQL Database
+```
+
+---
+
+# 📂 Project Structure
+
+
+```
+ExpenseTracker
+
 │
-├── src
+├── expense_frontend
+│
+│   ├── src
+│   │
 │   ├── Components
 │   │   ├── Navbar.jsx
 │   │   ├── SummaryCards.jsx
@@ -115,106 +186,180 @@ expense_frontend
 │   └── Services
 │       └── ExpenseService.js
 │
-└── package.json
+│
+└── expense_backend
+
+    ├── Controller
+    ├── Entity
+    ├── Repository
+    ├── Service
+    └── ExpenseBackendApplication.java
+
 ```
 
 ---
 
-## ▶️ How to Run the Frontend
+# ▶️ How to Run the Application
 
-Clone the repository:
+
+## Frontend Setup
+
+
+Clone repository:
+
 
 ```bash
 git clone https://github.com/NandhiniDhanasekaran/ExpenseTracker_React.git
 ```
 
-Navigate to the project:
+
+Navigate to frontend:
+
 
 ```bash
 cd ExpenseTracker_React/expense_frontend
 ```
 
+
 Install dependencies:
+
 
 ```bash
 npm install
 ```
 
+
 Start React application:
+
 
 ```bash
 npm run dev
 ```
 
-Application runs on:
+
+Frontend URL:
+
 
 ```
 http://localhost:5175
 ```
 
+
 ---
 
-## 🔗 Backend API
+# 🔗 Backend Setup
 
-Backend is developed using Spring Boot.
 
-Backend URL:
+Spring Boot backend URL:
+
 
 ```
 http://localhost:9243
 ```
 
----
 
-## 📸 Screenshots
+Run Spring Boot application from IntelliJ IDEA.
 
-Add screenshots here:
-
-* Login Page
-* Dashboard
-* Expense Grid
-* Reports Page
 
 ---
 
-## 👩‍💻 Author
+# 🔌 REST API Endpoints
 
-**Nandhini Dhanasekaran**
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | /api/expenses | Get all expenses |
+| GET | /api/expenses/{id} | Get expense by ID |
+| POST | /api/expenses | Create expense |
+| PUT | /api/expenses/{id} | Update expense |
+| DELETE | /api/expenses/{id} | Delete expense |
+
+
+---
+
+# 📸 Application Screenshots
+
+
+## Login Page
+
+![Login Page](screenshots/Login.png.png)
+
+
+## Register Page
+
+![Register Page](screenshots/Register.png.png)
+
+
+## Dashboard
+
+![Dashboard](screenshots/Home.png.png)
+
+
+## Expense List
+
+![Expense List](screenshots/expense-list.png)
+
+
+## Reports
+
+![Reports](screenshots/Reports.png)
+
+
+## PDF Export
+
+![PDF Export](screenshots/Exportpdf.png)
+
+
+---
+
+# 👩‍💻 Author
+
+
+## Nandhini Dhanasekaran
 
 Full Stack Developer
 
-Skills:
 
-* React
-* Java Spring Boot
-* C#
-* ASP.NET MVC
-* SQL
-* PostgreSQL
+### Skills
+
+- React.js
+- Java Spring Boot
+- REST API
+- C#
+- ASP.NET MVC
+- SQL Server
+- PostgreSQL
+- Git
+
 
 ---
 
-## 📌 Future Enhancements
-
-* JWT Authentication
-* User-wise expense separation
-* Pagination
-* Search functionality
-* Deployment using Azure
+# 📌 Future Enhancements
 
 
+- JWT Authentication
+- User-wise expense separation
+- Pagination
+- Search functionality
+- Azure Deployment
+- Docker Support
+- Unit Testing
 
-## 📸 Application Screenshots
 
-### Login Page
-![Login Page](screenshots/login.png)
+---
 
-### Register Page
-![Register Page](screenshots/register.png)
+# ⭐ Project Highlights
 
 
-### Expense List
-![Expense List](screenshots/expense-list.png)
+This project demonstrates:
 
-### Reports
-![Reports](screenshots/reports.png)
+
+✅ Full Stack Development  
+✅ React Component Architecture  
+✅ Spring Boot REST API Development  
+✅ PostgreSQL Database Integration  
+✅ CRUD Operations  
+✅ Dashboard Analytics  
+✅ Charts and Reports  
+✅ PDF and Excel Export  
+
