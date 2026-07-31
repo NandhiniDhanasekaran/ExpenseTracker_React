@@ -282,15 +282,18 @@ Run Spring Boot application from IntelliJ IDEA.
 
 
 <img width="1088" height="827" alt="Exportpdf png" src="https://github.com/user-attachments/assets/2bd60fc0-e336-4417-b54a-db8ce12698b9" />
-
+<br><br>
 
 <img width="1065" height="3147" alt="Reports png" src="https://github.com/user-attachments/assets/b42f9003-b73d-4661-836c-35289e128aa2" />
+<br><br>
 
 
 <img width="1065" height="3416" alt="Home png" src="https://github.com/user-attachments/assets/f5122de8-3a2d-475b-9a87-47b6495f73dd" />
+<br><br>
 
 
 <img width="1920" height="1080" alt="Register png" src="https://github.com/user-attachments/assets/f9ab5f69-3d28-4096-a442-63e95bdeb60a" />
+<br><br>
 
 
 
