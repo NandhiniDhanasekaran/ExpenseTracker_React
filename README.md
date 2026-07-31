@@ -201,3 +201,20 @@ Skills:
 * Pagination
 * Search functionality
 * Deployment using Azure
+
+
+
+## 📸 Application Screenshots
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Register Page
+![Register Page](screenshots/register.png)
+
+
+### Expense List
+![Expense List](screenshots/expense-list.png)
+
+### Reports
+![Reports](screenshots/reports.png)
