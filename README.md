@@ -278,6 +278,24 @@ Run Spring Boot application from IntelliJ IDEA.
 ---
 
 
+## 🗄️ Database
+
+Database: PostgreSQL
+
+Tables are created automatically using Spring Data JPA and Hibernate.
+
+Main Entity:
+
+- Expense
+
+Features:
+
+- Expense records
+- Category tracking
+- Date tracking
+- Amount tracking
+
+
 # 📸 Application Screenshot
 
 
